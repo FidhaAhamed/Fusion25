@@ -8,7 +8,7 @@ export default function TicketsCard({ position, forWhom, price }) {
       } flex flex-col gap-4 p-2 rounded-xl border border-white md:border-0`}
     >
       <div className="relative tickets-card h-full md:h-4/5 rounded-xl px-3 py-6 flex items-center flex-col">
-        <img src="public/Images/tickets-logo.png" alt="" className=" w-full" />
+        <img src="/Images/tickets-logo.png" alt="" className=" w-full" />
         <h6
           className={`text-white font-ClashDisplay font-extrabold ${
             position == "center" ? "text-sm md:text-base" : "text-sm"
@@ -17,7 +17,7 @@ export default function TicketsCard({ position, forWhom, price }) {
           DECEMBER 24 | 25
         </h6>
         <img
-          src="public/Images/qr.png"
+          src="/Images/qr.png"
           alt=""
           className={`w-3/5 ${position == "center" ? " mt-3 md:mt-5" : "mt-3"}`}
         />

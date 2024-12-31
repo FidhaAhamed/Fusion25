@@ -13,27 +13,29 @@ export default function Tickets() {
 
         <Heading heading="grab your tickets now" />
 
-        <div className="z-30 w-full lg:w-3/5 md:h-[36rem]  px-4 sm:px-6 md:px-12 lg:px-20 py-4 bg-white bg-opacity-15 rounded flex flex-col items-center justify-center">
+        <div className="z-30 w-full lg:w-3/5 md:h-[36rem]  px-4 sm:px-6 md:px-12 lg:px-20 py-4 bg-white bg-opacity-15 rounded-3xl flex flex-col items-center justify-center">
           {/* tickets container */}
           <div className=" mb-3 md:mb-8 md:h-[30rem] w-full flex items-center justify-between flex-col md:flex-row">
             <TicketsCard
               position={"side"}
               forWhom={"NON-IEEE MEMBERS"}
-              price={"2000"}
+              price={"999"}
             />
             <TicketsCard
               position={"center"}
               forWhom={"IEEE MEMBERS"}
-              price={"2000"}
+              price={"899"}
             />
             <TicketsCard
               position={"side"}
-              forWhom={"MACEians"}
-              price={"2000"}
+              forWhom={"SPS MEMBERS"}
+              price={"799"}
             />
           </div>
           {/* register button */}
+          <div className="my-3 md:my-0 md:mb-5">
           <RegBtn />
+          </div>
         </div>
       </div>
     </section>
