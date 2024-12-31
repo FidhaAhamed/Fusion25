@@ -19,17 +19,17 @@ export default function Tickets() {
             <TicketsCard
               position={"side"}
               forWhom={"NON-IEEE MEMBERS"}
-              price={"999"}
+              price={"Revealing Soon"}
             />
             <TicketsCard
               position={"center"}
               forWhom={"IEEE MEMBERS"}
-              price={"899"}
+              price={"Revealing Soon"}
             />
             <TicketsCard
               position={"side"}
               forWhom={"SPS MEMBERS"}
-              price={"799"}
+              price={"Revealing Soon"}
             />
           </div>
           {/* register button */}

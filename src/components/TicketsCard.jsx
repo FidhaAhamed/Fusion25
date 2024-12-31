@@ -40,8 +40,8 @@ export default function TicketsCard({ position, forWhom, price }) {
       </div>
       <div className="flex items-center justify-center h-1/5 rounded-2xl bg-white">
         {/* <img src="public/Images/barcode.png" /> */}
-        <p className=" text-2xl font-bold text-black font-RoverExplore">
-          &#8377;{price}&#47;&#8210;
+        <p className=" px-2 text-xl text-center font-bold text-black font-RoverExplore">
+          {price}
         </p>
       </div>
     </div>
