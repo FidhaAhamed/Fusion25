@@ -14,7 +14,7 @@ export default function TicketsCard({ position, forWhom, price }) {
             position == "center" ? "text-sm md:text-base" : "text-sm"
           } tracking-widest text-center mt-2`}
         >
-          DECEMBER 24 | 25
+          FEB 21 | 22 | 23
         </h6>
         <img
           src="/Images/qr.png"
@@ -40,8 +40,8 @@ export default function TicketsCard({ position, forWhom, price }) {
       </div>
       <div className="flex items-center justify-center h-1/5 rounded-2xl bg-white">
         {/* <img src="public/Images/barcode.png" /> */}
-        <p className=" px-2 text-xl text-center font-bold text-black font-RoverExplore">
-          {price}
+        <p className="text-2xl font-bold text-black font-RoverExplore">
+        &#8377;{price}&#47;&#8210;
         </p>
       </div>
     </div>
