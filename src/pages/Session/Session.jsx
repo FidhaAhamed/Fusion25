@@ -13,12 +13,12 @@ import './../../index.css'
 const Session = () => {
   const sessionsData =
     [
-      {
+      /**{
         name: "Real-Time Signal Processing in IoT Devices",
         description:
           "Gain an in-depth understanding of how signal processing revolutionizes real-time applications in IoT. The session provides invaluable insights and skills that are highly relevant in professional and industry settings.",
         image:'/Images/iot.jpg'
-      },
+      },**/
       {
         name: "Renewable Energy Signal Processing for Smart Grids",
         description:
@@ -67,8 +67,8 @@ const Session = () => {
                   spaceBetween: 30,
                 },
                 1024: {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
+                  slidesPerView: 2,
+                  spaceBetween: 20,
                 },
               }}
             >
