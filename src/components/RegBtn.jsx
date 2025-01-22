@@ -1,4 +1,4 @@
-import '../index.css'
+/**import '../index.css'
 
 
  const RegBtn = () => {
@@ -11,16 +11,16 @@ import '../index.css'
      </button>
    )
  }
- export default RegBtn
+ export default RegBtn**/
 
 
 
-{/** import '../index.css'
+import '../index.css'
 
 
  const RegBtn = () => {
    const handleRegistrationClick = () => {
-     window.open("https://unstop.com/p/fusion-ieee-student-branch-mar-athanasius-college-of-engineering-kothamangalam-1312314", "_blank", "noopener,noreferrer");
+     window.open("https://unstop.com/o/2JrcoAe?lb=krBYiex1&utm_medium=Share&utm_source=shortUrl", "_blank", "noopener,noreferrer");
    };
    return (
      <button className="reg-btn-gradient px-4 sm:px-8 md:px-16 py-2 md:py-4 rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center gap-x-2 whitespace-nowrap uppercase"
@@ -30,7 +30,7 @@ import '../index.css'
      </button>
    )
  }
- export default RegBtn}**/}
+ export default RegBtn
 
 {/**import '../index.css'
 
