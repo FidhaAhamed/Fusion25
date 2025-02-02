@@ -18,18 +18,18 @@ export default function Tickets() {
           <div className=" mb-3 md:mb-8 md:h-[30rem] w-full flex items-center justify-between flex-col md:flex-row">
             <TicketsCard
               position={"side"}
-              forWhom={"NON-IEEE MEMBERS"}
-              price={"1049"}
+              forWhom={"3 NON-IEEE MEMBERS"}
+              price={"2697"}
             />
             <TicketsCard
               position={"center"}
-              forWhom={"IEEE MEMBERS"}
-              price={"949"}
+              forWhom={"3 IEEE MEMBERS"}
+              price={"2397"}
             />
             <TicketsCard
               position={"side"}
-              forWhom={"SPS MEMBERS"}
-              price={"849"}
+              forWhom={"3 SPS MEMBERS"}
+              price={"2097"}
             />
           </div>
           {/* register button */}
