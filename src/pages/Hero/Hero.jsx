@@ -40,8 +40,8 @@ const Hero = () => {
 
       <div className="absolute bottom-10 md:bottom-8 left-1/2 transform -translate-x-1/2 z-10 mt-16 px-4 sm:px-8 md:px-0">
         <RegBtn />
-
       </div>
+
     </div>
     </section>  
   );
