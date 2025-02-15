@@ -72,8 +72,7 @@ const Session = () => {
                 },
               }}
             >
-              
-                {
+                  {   
                   sessionsData.map((session,index)=>(
                     <SwiperSlide key={index}>
                     <SessionsCard
@@ -82,10 +81,10 @@ const Session = () => {
                     image={session.image}
                     onMouseEnter={() => swiperInstance?.autoplay.stop()} // Pause autoplay
                     onMouseLeave={() => swiperInstance?.autoplay.start()} // Resume autoplay
-                    />
+                    /> 
                   </SwiperSlide>
                   ))
-                }
+                }    
             </Swiper>
     </section>
   )
