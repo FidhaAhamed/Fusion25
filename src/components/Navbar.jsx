@@ -56,6 +56,10 @@ const Navbar = () => {
             <a href="#sessions" className="block">Sessions</a>
           </li>
           <li>
+            <a href="#guidelines" className="block">Guidelines</a>
+          </li>
+          
+          <li>
             <a href="#gallery" className="block">Gallery</a>
           </li>
         </ul>
@@ -65,6 +69,7 @@ const Navbar = () => {
       <a href="#about" className="cursor-pointer hover:bg-[#B429BE] rounded-full px-3 py-1 duration-500 ease-in-out">About</a>
       <a href="#tickets" className="cursor-pointer hover:bg-[#B429BE] rounded-full px-3 py-1 duration-500 ease-in-out">Tickets</a>
       <a href="#sessions" className="cursor-pointer hover:bg-[#B429BE] rounded-full px-3 py-1 duration-500 ease-in-out">Sessions</a>
+      <a href="#guidelines" className="cursor-pointer hover:bg-[#B429BE] rounded-full px-3 py-1 duration-500 ease-in-out">Guidelines</a>
       <a href="#gallery" className="cursor-pointer hover:bg-[#B429BE] rounded-full px-3 py-1 duration-500 ease-in-out">Gallery</a>
       </div>
       <img src="/Images/logo.png" alt="35 - MACE Logo"
