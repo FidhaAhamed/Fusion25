@@ -6,6 +6,7 @@ import Footer from "./pages/Footer/Footer.jsx";
 import Tickets from "./pages/Tickets/Tickets";
 import Gallery from "./pages/Gallery/Gallery.jsx";
 import Guidelines from "./pages/Guidelines/Guidelines.jsx";
+import Workshop from "./pages/Workshop/Workshop.jsx";
 const App = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Tickets/>
       <Session />
+      <Workshop/>
       <Guidelines/>
       <Gallery />
       <Footer />
