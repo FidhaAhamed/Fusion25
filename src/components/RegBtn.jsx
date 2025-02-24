@@ -1,56 +1,67 @@
-import { useState } from "react";
-
+import '../index.css'
 
 const RegBtn = () => {
-  const [showOptions, setShowOptions] = useState(false);
-  const [fadeIn, setFadeIn] = useState(false);
-
-  
-  const handleMouseLeave = () => {
-    setShowOptions(false);
-    setFadeIn(true); 
-    setTimeout(() => setFadeIn(false), 300); 
-  };
-
-  const handleBulk = () => {
-    window.open("https://unstop.com/o/eAZQ7at?lb=krBYiex1", "_blank", "noopener,noreferrer");
-  }
-
-  const handleIndividual = () => {
-    window.open("https://unstop.com/o/cjQBfU1?lb=krBYiex1", "_blank", "noopener,noreferrer");
-  }
-
-  
   return (
-    <div onMouseLeave={handleMouseLeave}>
-    {showOptions ? (
-      <div  className={`flex space-x-4 transition-opacity animate-fade-in ${showOptions ? "opacity-100 animate-fade-in" : "opacity-0"}`}>
-        <button
-          className="reg-btn-gradient w-[120px] h-[50px] sm:w-[200px] rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center justify-center gap-x-2 whitespace-nowrap uppercase transition-all duration-300 ease-in-out"
-          onClick={handleIndividual}
-        >
-          Individual
-        </button>
-        <button
-          className="reg-btn-gradient w-[120px] h-[50px] sm:w-[200px] rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center justify-center gap-x-2 whitespace-nowrap uppercase transition-all duration-300 ease-in-out"
-          onClick={handleBulk}
-        >
-          Bulk
-        </button>
-      </div>
-    ) : (
-      <button
-        className={`reg-btn-gradient w-[200px] sm:w-[250px] h-[50px] rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center justify-center gap-x-2 whitespace-nowrap uppercase transition-all duration-300 ease-in-out ${ fadeIn ? "animate-fade-in" : ""}`}
-        onClick={() => setShowOptions(true)}
-      >
-        Register Now
-      </button>
-    )}
-  </div>
-
+    <button className="reg-btn-gradient px-4 sm:px-8 md:px-16 py-2 md:py-4 rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center gap-x-2 whitespace-nowrap uppercase">
+        <h1>Registration closed</h1>
+    </button>
   )
 }
 export default RegBtn
+
+// import { useState } from "react";
+
+
+// const RegBtn = () => {
+//   const [showOptions, setShowOptions] = useState(false);
+//   const [fadeIn, setFadeIn] = useState(false);
+
+  
+//   const handleMouseLeave = () => {
+//     setShowOptions(false);
+//     setFadeIn(true); 
+//     setTimeout(() => setFadeIn(false), 300); 
+//   };
+
+//   const handleBulk = () => {
+//     window.open("https://unstop.com/o/eAZQ7at?lb=krBYiex1", "_blank", "noopener,noreferrer");
+//   }
+
+//   const handleIndividual = () => {
+//     window.open("https://unstop.com/o/cjQBfU1?lb=krBYiex1", "_blank", "noopener,noreferrer");
+//   }
+
+  
+//   return (
+//     <div onMouseLeave={handleMouseLeave}>
+//     {showOptions ? (
+//       <div  className={`flex space-x-4 transition-opacity animate-fade-in ${showOptions ? "opacity-100 animate-fade-in" : "opacity-0"}`}>
+//         <button
+//           className="reg-btn-gradient w-[120px] h-[50px] sm:w-[200px] rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center justify-center gap-x-2 whitespace-nowrap uppercase transition-all duration-300 ease-in-out"
+//           onClick={handleIndividual}
+//         >
+//           Individual
+//         </button>
+//         <button
+//           className="reg-btn-gradient w-[120px] h-[50px] sm:w-[200px] rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center justify-center gap-x-2 whitespace-nowrap uppercase transition-all duration-300 ease-in-out"
+//           onClick={handleBulk}
+//         >
+//           Bulk
+//         </button>
+//       </div>
+//     ) : (
+//       <button
+//         className={`reg-btn-gradient w-[200px] sm:w-[250px] h-[50px] rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center justify-center gap-x-2 whitespace-nowrap uppercase transition-all duration-300 ease-in-out ${ fadeIn ? "animate-fade-in" : ""}`}
+//         onClick={() => setShowOptions(true)}
+//       >
+//         Register Now
+//       </button>
+//     )}
+//   </div>
+
+//   )
+// }
+// export default RegBtn
 
 
 // import { useState } from 'react';
@@ -89,18 +100,7 @@ export default RegBtn
 //  export default RegBtn
 
 
-{/**import '../index.css'
 
-
-const RegBtn = () => {
-  return (
-    <button className="reg-btn-gradient px-4 sm:px-8 md:px-16 py-2 md:py-4 rounded-[50px] text-white text-sm sm:text-lg md:text-xl font-semibold flex items-center gap-x-2 whitespace-nowrap uppercase">
-        <h1>Registrations opening soon</h1>
-        //*<img src='/Images/reg-btn-icon.png'/>
-    </button>
-  )
-}
-export default RegBtn **/}
 
 
 // import React, { useState } from "react";
